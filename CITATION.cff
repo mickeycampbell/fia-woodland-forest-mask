@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it using the metadata below."
+type: software
+title: "FIA woodland–forest mask"
+version: 1.0.0
+authors:
+  - family-names: Campbell
+    given-names: Michael
+license: MIT
