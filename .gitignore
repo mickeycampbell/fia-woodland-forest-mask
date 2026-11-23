@@ -1,0 +1,23 @@
+# Large spatial and tabular data
+*.tif
+*.tiff
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.csv
+*.rds
+
+# Project-specific data and derived outputs
+fia/
+fia_mask/
+ecoregion/
+modeling/
+predictors/
+
+# R / RStudio session files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
