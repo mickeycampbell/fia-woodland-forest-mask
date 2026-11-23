@@ -16,12 +16,15 @@ ncores <- 18L
 # project setup
 # ==============================================================================
 
+# set this to the local project directory
+main_dir <- "path/to/ut_fire_2026_trends"
+
 # directories
-fia_dir <- "S:/ursa/campbell/Other/ut_fire_2026_trends/fia"
-fia_mask_dir <- "S:/ursa/campbell/Other/ut_fire_2026_trends/fia_mask/bigger"
-eco_dir <- "S:/ursa/campbell/Other/ut_fire_2026_trends/ecoregion"
-mod_dir <- "S:/ursa/campbell/Other/ut_fire_2026_trends/modeling"
-predictor_dir <- "S:/ursa/campbell/Other/ut_fire_2026_trends/predictors"
+fia_dir <- file.path(main_dir, "fia")
+fia_mask_dir <- file.path(main_dir, "fia_mask")
+eco_dir <- file.path(main_dir, "ecoregion")
+mod_dir <- file.path(main_dir, "modeling")
+predictor_dir <- file.path(main_dir, "predictors")
 
 # read and simplify reference species database
 ref_species <- file.path(fia_dir, "FIADB_REFERENCE", "REF_SPECIES.csv") |>
